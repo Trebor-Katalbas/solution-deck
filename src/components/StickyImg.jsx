@@ -3,7 +3,6 @@ import branding1 from "../assets/branding-1.png";
 import branding3 from "../assets/branding-6.jpeg";
 import branding2 from "../assets/branding-2.png";
 import { MdArrowOutward } from "react-icons/md";
-import { motion } from "framer-motion";
 
 const StickyImg = ({ linkEnter, cursorLeave }) => {
   return (
