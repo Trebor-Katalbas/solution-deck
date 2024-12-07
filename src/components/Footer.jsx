@@ -23,7 +23,7 @@ const Footer = () => {
               <hr></hr>
               <a
                 href="#link"
-                className="flex justify-between w-[320px] px-2 md:px-5 py-4 hover:bg-orange-900 transition duration-200"
+                className="flex justify-between w-[280px] md:w-[320px] px-2 md:px-5 py-4 hover:bg-orange-900 transition duration-200"
               >
                 <li>Facebook</li>
                 <FaFacebook />
@@ -31,7 +31,7 @@ const Footer = () => {
               <hr></hr>
               <a
                 href="#link"
-                className="flex justify-between w-[320px] px-2 md:px-5 py-4 hover:bg-orange-900 transition duration-200"
+                className="flex justify-between w-[280px] md:w-[320px] px-2 md:px-5 py-4 hover:bg-orange-900 transition duration-200"
               >
                 <li>Email</li>
                 <MdEmail />
@@ -39,7 +39,7 @@ const Footer = () => {
               <hr></hr>
               <a
                 href="#link"
-                className="flex justify-between w-[320px] px-2 md:px-5 py-4 hover:bg-orange-900 transition duration-200"
+                className="flex justify-between w-[280px] md:w-[320px] px-2 md:px-5 py-4 hover:bg-orange-900 transition duration-200"
               >
                 <li>Location</li>
                 <IoLocationSharp />
@@ -54,7 +54,7 @@ const Footer = () => {
               <hr></hr>
               <a
                 href="#link"
-                className="flex justify-between md:w-[320px] px-5 py-4 hover:bg-orange-900 transition duration-200"
+                className="flex justify-between w-[280px] md:w-[320px] px-5 py-4 hover:bg-orange-900 transition duration-200"
               >
                 <li>Cookie Policy</li>
                 <FaCircleChevronRight />
@@ -62,7 +62,7 @@ const Footer = () => {
               <hr></hr>
               <a
                 href="#link"
-                className="flex justify-between md:w-[320px] px-5 py-4 hover:bg-orange-900 transition duration-200"
+                className="flex justify-between w-[280px] md:w-[320px] px-5 py-4 hover:bg-orange-900 transition duration-200"
               >
                 <li>Privacy Policy</li>
                 <FaCircleChevronRight />
@@ -70,7 +70,7 @@ const Footer = () => {
               <hr></hr>
               <a
                 href="#link"
-                className="flex justify-between md:w-[320px] px-5 py-4 hover:bg-orange-900 transition duration-200"
+                className="flex justify-between w-[280px] md:w-[320px] px-5 py-4 hover:bg-orange-900 transition duration-200"
               >
                 <li>Legal Notice</li>
                 <FaCircleChevronRight />
