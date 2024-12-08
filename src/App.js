@@ -5,7 +5,6 @@ import Cursor from "./components/Cursor";
 import { useState } from "react";
 import StickyImg from "./components/StickyImg";
 import Footer from "./components/Footer";
-import { motion } from "framer-motion";
 import Containers from "./components/Containers";
 import Testimonials from "./components/Testimonials";
 
