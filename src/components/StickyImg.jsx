@@ -1,7 +1,7 @@
 import React from "react";
-import branding1 from "../assets/branding-1.png";
+import branding1 from "../assets/branding-3.png";
 import branding3 from "../assets/branding-6.jpeg";
-import branding2 from "../assets/branding-2.png";
+import branding2 from "../assets/branding-4.png";
 import { MdArrowOutward } from "react-icons/md";
 
 const StickyImg = ({ linkEnter, cursorLeave }) => {
