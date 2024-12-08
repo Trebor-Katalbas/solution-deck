@@ -27,11 +27,12 @@ const Navbar = () => {
           )}
         </button>
       </div>
+      
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-6 text-[15px] uppercase">
         <li>
           <a
-            href="#home"
+            href="/"
             className="text-white hover:text-[#FFA01F] transition duration-300"
           >
             Home
@@ -39,7 +40,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="#works"
+            href="/our-work"
             className="text-white hover:text-[#FFA01F] transition duration-300"
           >
             Our Work
@@ -60,7 +61,7 @@ const Navbar = () => {
           <ul className="flex flex-col gap-4 text-[15px] uppercase px-6">
             <li>
               <a
-                href="#home"
+                href="/"
                 className="text-white hover:text-[#FFA01F] transition duration-300"
                 onClick={toggleMenu}
               >
@@ -69,7 +70,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#works"
+                href="/our-work"
                 className="text-white hover:text-[#FFA01F] transition duration-300"
                 onClick={toggleMenu}
               >

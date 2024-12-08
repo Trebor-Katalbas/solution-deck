@@ -20,6 +20,7 @@ function App() {
       <Cursor cursorVariant={cursorVariant} />
       <Navbar />
       <Header textEnter={textEnter} cursorLeave={cursorLeave} />
+      
       <main>
         <StickyImg linkEnter={linkEnter} cursorLeave={cursorLeave} />
         <Containers textEnter={textEnter} cursorLeave={cursorLeave} />
@@ -32,6 +33,7 @@ function App() {
       <section>
         <Testimonials textEnter={textEnter} cursorLeave={cursorLeave} />
       </section>
+
       <Footer />
     </>
   );

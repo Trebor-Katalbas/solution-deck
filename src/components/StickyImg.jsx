@@ -13,7 +13,11 @@ const StickyImg = ({ linkEnter, cursorLeave }) => {
           onMouseLeave={cursorLeave}
           className="w-[99%] h-[80vh] md:h-[90vh] sticky top-[10vh] rounded-[3rem] overflow-hidden"
         >
-          <a href="#brand">
+          <a
+            href="https://www.jollibeeksa.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className="object-cover w-full h-full"
               src={branding1}
@@ -26,7 +30,11 @@ const StickyImg = ({ linkEnter, cursorLeave }) => {
           onMouseLeave={cursorLeave}
           className="w-[99%] h-[80vh] md:h-[90vh] sticky top-[15vh] rounded-[3rem] overflow-hidden"
         >
-          <a href="#brand">
+          <a
+            href="https://www.chowkingksa.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className="object-cover w-full h-full"
               src={branding2}
@@ -52,9 +60,9 @@ const StickyImg = ({ linkEnter, cursorLeave }) => {
       <div className="flex justify-center items-start pb-28">
         <a
           className="bg-zinc-900 hover:bg-orange-900 w-fit rounded-full text-white py-3 px-6 flex flex-row items-center gap-1 border border-zinc-800 hover:border-orange-950 transition duration-200 group"
-          href="#ourwork"
+          href="/our-work"
         >
-          View All Works
+          View All Projects
           <div className="transition-transform duration-200 ease-out group-hover:translate-x-1">
             <MdArrowOutward />
           </div>
